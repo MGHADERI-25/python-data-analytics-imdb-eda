@@ -15,3 +15,8 @@ Source:
 Note:
 - The raw dataset files are not committed to this repository by default to respect dataset licensing and redistribution terms.
 - After downloading, place the files in `data/raw/` using the names above.
+
+License note:
+The associated Kaggle notebook used as reference is released under the Apache 2.0 license.
+Dataset redistribution rights depend on the dataset license specified on Kaggle.
+For this reason, raw CSV files are not committed to this repository by default.
