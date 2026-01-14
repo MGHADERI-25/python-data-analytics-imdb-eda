@@ -32,7 +32,7 @@ python-data-analytics-imdb-eda/
 ├─ notebooks/
 │  └─ eda_the_good_place.ipynb
 ├─ data/
-│  ├─ raw/                # local-only (not committed)
+│  ├─ raw/                # raw datasets (included)
 │  └─ processed/          # optional cleaned outputs
 ├─ outputs/
 │  ├─ figures/            # saved charts (optional)
@@ -42,21 +42,29 @@ python-data-analytics-imdb-eda/
 └─ docs/
    ├─ AI_USAGE.md
    └─ ACADEMIC_INTEGRITY.md
-```
+````
 
 ---
 
-## 4. Data (how to run this project)
+## 4. Data
 
-### 4.1 Raw datasets (not committed by default)
+### 4.1 Included datasets
 
-To respect dataset redistribution terms, raw CSV files are **not committed to this repository by default**.
-Download the dataset from the referenced Kaggle source and place the files here:
+The raw datasets used in this project are **included in the repository** under `data/raw/`:
 
 * `data/raw/the_good_place_imdb.csv`
 * `data/raw/the_good_place_episodes.csv`
 
-See: `data/README_data.md`
+The datasets originate from Kaggle and are released under a **CC0 (Public Domain)** license, which permits redistribution and reuse without restriction.
+
+Source reference:
+
+* Kaggle notebook: *The Good Place Episode Data Analysis*
+  [https://www.kaggle.com/code/bcruise/the-good-place-episode-data-analysis/notebook](https://www.kaggle.com/code/bcruise/the-good-place-episode-data-analysis/notebook)
+
+Additional details on data sources and structure are provided in:
+
+* `data/README_data.md`
 
 ---
 
@@ -91,6 +99,7 @@ Then launch Jupyter and open:
 ## 7. Notes on AI Usage and Academic Integrity
 
 This project was completed as coursework and follows the course’s AI policy (Permitted Level: **Level 4**).
+
 Full disclosure and integrity statements are available in:
 
 * `docs/AI_USAGE.md`
@@ -100,6 +109,5 @@ Full disclosure and integrity statements are available in:
 
 ## Author
 
-Individual MSc coursework project  
-
+Individual MSc coursework project
 International Business School (IBS), Budapest
