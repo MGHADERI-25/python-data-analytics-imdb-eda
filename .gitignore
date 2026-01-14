@@ -206,6 +206,10 @@ marimo/_static/
 marimo/_lsp/
 __marimo__/
 
-# Data (keep raw datasets out of Git by default)
-data/raw/*.csv
-data/raw/*.zip
+# Data (default: keep raw data private)
+data/raw/**
+data/**/*.csv
+
+# Allowlist: CC0 datasets committed for this repo
+!data/raw/the_good_place_imdb.csv
+!data/raw/the_good_place_episodes.csv
